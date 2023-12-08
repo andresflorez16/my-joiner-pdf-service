@@ -5,7 +5,7 @@ from joiner import joiner_pdf
 from helpers.validator import validateFields
 
 app = Flask(__name__)
-CORS(app, origins=['http://localhost:4321', 'https://my-joiner-pdf.vercel.app/'])
+CORS(app, origins=['http://localhost:4321', 'https://my-joiner-pdf.vercel.app'])
 
 api = Blueprint('api', __name__, url_prefix='/api')
 
